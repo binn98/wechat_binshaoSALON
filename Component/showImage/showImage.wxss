@@ -1,0 +1,10 @@
+/* Component/showImage/showImage.wxss */
+.swiper{
+    // height: 234.4rpx;
+    height: calc(750 * 200 / 640rpx);
+}
+image{
+    width: 750rpx;
+    height: inherit;
+    display: block;
+}

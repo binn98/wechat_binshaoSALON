@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "Image":"/Component/showImage/showImage",
+    "title":"/Component/title/title",
+    "card":"/Component/card/card"
+  }
 }

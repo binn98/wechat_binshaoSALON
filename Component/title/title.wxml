@@ -1,0 +1,3 @@
+<view class="title" style="color:{{titleData.color}}; font-size:{{titleData.fontSize}};font-weight:{{titleData.fontWeight}};background-image:url({{titleData.bgg}})">
+    {{titleData.title}}
+</view>

@@ -1,0 +1,12 @@
+<view class="image" bindtap="image">
+    <!-- 轮播图组件 -->
+    <swiper class="swiper" indicator-dots="{{innerData.indicatorDots}}" indicator-color="{{innerData.color}}" indicator-active-color="{{innerData.activeColor}}" autoplay="{{innerData.autoplay}}" interval="{{innerData.interval}}">
+        <block wx:for="{{innerData.arrimage}}" wx:for-item="item1" wx:key="index">
+            <swiper-item class="image">
+                <image class="image" src="{{item1}}" mode="widthFix"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+  
+

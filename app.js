@@ -1,6 +1,6 @@
 //app.js
 App({
   globalData:{
-    userInfo:null
+    userInfo: wx.getStorageSync('userData') || null
   }
 })
