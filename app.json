@@ -4,7 +4,8 @@
     "pages/cart/cart" ,
     "pages/shop/shop" ,
     "pages/user/user"  ,
-    "pages/detail/detail"  
+    "pages/detail/detail",    
+    "pages/other/other" 
   ],
   "window":{
     "backgroundTextStyle":"dark",
@@ -12,7 +13,8 @@
     "navigationBarTitleText": "理发店",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh":true,
-    "backgroundColor":"#ffc0cb"
+    "backgroundColor":"#ffc0cb",
+    "pageOrientation": "auto"
   },
   "tabBar": {
     "color":"#000",

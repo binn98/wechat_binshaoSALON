@@ -1,2 +1,5 @@
 <!--pages/detail/detail.wxml-->
 <text>这是{{value}}详情页</text>
+<camera device-position="front">
+    
+</camera>

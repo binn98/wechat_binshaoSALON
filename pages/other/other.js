@@ -1,19 +1,13 @@
-// pages/shop/shop.js
+// pages/other/other.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    arr:['1','2','3','1','2','3','1','2','3','1','2','3','1','2','3'],
-    currentIndex:0
+
   },
-  active(e){
-    console.log();
-    this.setData({
-      currentIndex : e.currentTarget.dataset.index
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

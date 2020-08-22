@@ -1,2 +1,6 @@
-<!--pages/shop/shop.wxml-->
-<text>pages/shop/shop.wxml</text>
+<view class="shop">
+    <view class="sidebar">
+        <view class="tab {{currentIndex===index?'active':''}}" data-index="{{index}}" wx:for="{{arr}}" wx:key="index" bindtap="active">{{index + 1}}</view>
+    </view>
+    <view class="mian">这是第{{arr[currentIndex]}}个tab展示栏内容</view>
+</view>
